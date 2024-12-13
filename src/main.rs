@@ -1,5 +1,5 @@
 use std::{collections::VecDeque, net::UdpSocket};
-use cantons::*;
+use trains_server::*;
 
 fn main() {
     let mut trains: VecDeque<Train> = VecDeque::new();
